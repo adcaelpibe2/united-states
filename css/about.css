@@ -1,0 +1,194 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    padding: 3.2rem;
+    text-align: center;
+    margin-top: 2%;
+}
+
+header h1{
+    font-size: 2.7rem;
+}
+
+header .main-form{
+    padding: 2rem 0rem;
+}
+
+header .form #search{
+    width: 14.5%;
+    height: 33px;
+    margin: 0px auto;
+    padding-left: 3%;
+    font-size: 0.9rem;
+}
+
+header .form #search-btn{
+    position: absolute;
+    width: auto;
+    height: 27px;
+    margin: 0.5%;
+    margin-left: 0.7%;
+    border: none;
+}
+
+#nav-main {
+    width: 100%;
+    height: 99px;
+    background-color: #D7E3FC;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.nav-item{
+    width: 49%;
+    height: 87px;
+    background-color: #D7E3FC;
+    margin-left: 0.7%;
+    margin-top: 10px;
+    float: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-item h3{
+    width: 32%;
+    height: 60px;
+    background-color: #c8dbf7f7;
+    color: #222 ;
+    background-color: #D7E3FC;
+    margin-top: 2px;
+    margin-bottom: 9px;
+    margin-left: 0.2%;        
+    text-transform: uppercase;
+    font-size: 1.9rem;
+    text-align: center;
+    line-height: 60px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.nav-item h4{
+    width: 24.6%;
+    height: 62px;
+    background-color: #D7E3FC;
+    color: #222;    
+    margin-top: 8px;
+    margin-right: 42.7%;
+    text-align: center;
+    line-height: 47px;
+    font-size: 1.1rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    cursor: default;
+}
+
+.nav-item a{
+    width: 30%;
+    height: 60px;
+    text-align: center;
+    line-height: 62px;
+    margin-left: 2%;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    margin-bottom: 7px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.nav-item h3 a:hover,
+.nav-item h3 a:focus,
+.nav-item h3 a:active,
+.nav-item h3 a:visited {
+    color: #222;
+    background-color: transparent;
+    border-bottom: none;
+    text-decoration: none;
+}
+
+.nav-item a:visited, a:hover, a:active, a:focus{
+    color: #007BFF;
+    border-bottom: 2px solid #007BFF;
+    border-radius: 5px;
+    background-color: rgba(0, 123, 255, 0.1); 
+}
+
+.nav-item .nav-home{
+    margin-left: 34.9%;
+}
+
+.nav-item .nav-other{
+    margin-left: 5.2%;
+    margin-left: 0.3%;
+}
+.nav-item .nav-about{
+    margin-left: 0.2%;
+} 
+
+#about-main{
+    width: 100%;
+    height: 760px;
+    margin-top: 10px;    
+}
+
+#about-main .about-container{
+    width: 33.32%;
+    width: 34%;
+    height: 674px;
+    background-color: #222;
+    margin: 0px auto;
+    box-shadow: 0px 6px 16px rgba(0,0,0, 0.8);
+}
+
+#about-main .about-container .card-media-top{
+    width: 100%;
+    height: 360px;
+    background-color: aqua;
+}
+
+
+#about-main .about-container .card-media-top .imagen-top{
+    width: 100%;
+    height: 100%;
+}
+
+#about-main .about-container .card-body{
+    width: 100%;
+    height: 274px;
+    display: block;
+    background-color: rgb(160, 160, 212);
+    background-color: #222;
+    padding-top: 40px;
+}
+
+#about-main .about-container .card-body p{
+    display: block;
+    width: auto;
+    height: auto;
+    font-family: Avenir,Helvetica,Arial,sans-serif;
+    margin: 10px 40px 27px 40px;
+    color: hsla(0, 0%, 100%, .8);
+    font-size: 15px;
+}
+
+#about-main .about-container .card-body .text-justify{
+    display: block;
+    text-align: justify;
+}
+
+#about-main .small-footer{
+    width: 100%;
+    height: 20px;
+    display: block;
+    margin-top: 50px;
+}
+
+#about-main .small-footer span{
+    display: block;
+    text-align: center;
+    font-family: Avenir,Helvetica,Arial,sans-serif;
+}
+
+
